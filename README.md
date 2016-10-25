@@ -12,4 +12,4 @@ The aim of this prioject is to create an idea management platform. It is current
 1. Comment/like ideas
 2. Using NLP for organizing related ideas, keyword extraction, summerization.
 
-Currently its just a bit more extension of the django seed. Basic models for idea, team and user profile are in place. The front end for users is currently under development. Planning to use Django Comments framework to implement comments and like features.
+Currently its in a crude stage with a little extension from the Django seed. Basic models for idea, team and user profile are in place. The front end for users is currently under development. Planning to use Django Comments framework to implement comments and like features.
