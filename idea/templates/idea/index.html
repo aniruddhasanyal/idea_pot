@@ -1,0 +1,9 @@
+{% if all_ideas %}
+    <ul>
+        {% for idea in all_ideas %}
+            <li><a href="{% url 'idea:idea_details' idea.id %}">{{ idea.title }}</a></li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <h3>No ideas here</h3>
+{% endif %}
