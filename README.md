@@ -18,5 +18,8 @@ Currently its in a crude stage with a little extension from the Django seed. Bas
 1. Clone this repository to your local machine (or just download the zip)
 2. Extract the files into a new forlder (name it whatever you like)
 3. Open up a command prompt at this derectory (in windows: shift + right click -> Open command window here)
-4. In the command prompt, type python manage.py runserver
-5. This is at a very crude stage right now (not getting time or help), so dont expect anything magical ;)
+4. In the command prompt, type python manage.py migrate
+5. Once migrations are complete, type python manage.py runserver and you should be able to browse the site at 127.0.0.1:8000
+6. You should be able to access the admin site at 127.0.0.1:8000/admin
+7. This is at a very crude stage right now, so don't expect anything magical ;)
+8. Please feel free to pull, fork and comment.
