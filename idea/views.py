@@ -3,7 +3,7 @@ from .models import Idea
 
 def index(request):
     all_ideas = Idea.objects.all()
-    return render(request, 'idea/index.html', {'all_ideas': all_ideas})
+    return render(request, 'idea/home.html', {'all_ideas': all_ideas})
 
 def idea_details(request, idea_id):
     idea = get_object_or_404(Idea, pk=idea_id)

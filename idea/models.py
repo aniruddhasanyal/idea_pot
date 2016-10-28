@@ -23,7 +23,7 @@ class Idea(models.Model):
     author = models.ForeignKey(User)
     team = models.ForeignKey(Team)
     title = models.CharField(max_length=100)
-    description = models.CharField(max_length=1000)
+    description = models.TextField()
     repository = models.URLField(max_length=150)
     tags = models.CharField(max_length=50)
 

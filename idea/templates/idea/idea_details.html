@@ -1,4 +1,8 @@
-{{idea.title}}<br>
-{{idea.author}}<br>
-{{idea.description}}<br>
-{{idea.tags}}
+{% extends "idea/header.html" %}
+
+{% block content %}
+	<strong>Idea Title: </strong> {{idea.title}}<br>
+	<strong>Author: </strong>{{idea.author}}<br>
+	<strong>Description: </strong>{{idea.description}}<br>
+	<strong>Tags: </strong>{{idea.tags}}
+{% endblock %}

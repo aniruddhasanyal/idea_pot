@@ -1,0 +1,9 @@
+{% extends "idea/header.html" %}
+
+{% block content %}
+    <ul>
+        {% for idea in all_ideas %}
+            <li><a href="{{idea.id}}/">{{idea.title}}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}
