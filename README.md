@@ -15,7 +15,7 @@ The aim of this prioject is to create an idea management platform. It is current
 Currently its in a crude stage with a little extension from the Django seed. Basic models for idea, team and user profile are in place. The front end for users is currently under development. Planning to use Django Comments framework to implement comments and like features.
 
 # To sart the app:
-1. Clone this repository to your local machine
+1. Clone this repository to your local machine (or just download the zip)
 2. Extract the files into a new forlder (name it whatever you like)
 3. Open up a command prompt at this derectory (in windows: shift + right click -> Open command window here)
 4. In the command prompt, type python manage.py runserver
